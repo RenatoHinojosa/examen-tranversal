@@ -36,7 +36,7 @@ def clasificar_sueldos():
         if trabajador["sueldo"]>=800000 and trabajador["sueldo"]<=2000000 :
             sueldosmedios.append(trabajador)
         if trabajador["sueldo"]>2000000:
-            sueldosbajos.append(trabajador)
+            sueldosaltos.append(trabajador)
             
     print("="*50)        
     print(f"SUELDOS MENORES A 800.000 TOTAL:{len(sueldosbajos)}")
